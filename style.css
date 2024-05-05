@@ -1,0 +1,359 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    max-width: 1440px;
+    height: 80px;
+}
+
+.navbar__wrapper {
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__list {
+    display: flex;
+    gap: 0 48px;
+}
+
+.item__link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #12100CB2;
+}
+
+.item__link:hover {
+    background-color: #d3b3b3;
+    color: blue;
+}
+
+.navbar__login {
+    text-transform: capitalize;
+    width: 80px;
+    height: 32px;
+    background: #12100C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #F9F9F9;
+}
+
+.navbar__login:hover {
+    background-color: #fff;
+    border: 1px solid #12100C;
+    color: #12100C;
+}
+
+.hero {
+    max-width: 1310px;
+    height: 672px;
+    margin-top: 32px;
+}
+
+.container {
+    padding: 0 65px;
+}
+
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__content {
+    width: 50%;
+    height: 414px;
+}
+
+.hero__title {
+    max-width: 560px;
+    height: 176px;
+    font-size: 80px;
+    color: #12100C;
+    font-weight: 700;
+    line-height: 88px;
+}
+
+.hero__text {
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 32px;
+    color: #12100CB2;
+}
+
+.hero__actions {
+    margin-top: 48px;
+    max-width: 560px;
+    height: 96px;
+    display: flex;
+}
+
+.hero__contact__link {
+    text-transform: capitalize;
+    width: 160px;
+    height: 46px;
+    background-color: #FFAE33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: #12100C;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.hero__contact__link:hover {
+    background-color: #fff;
+    border: 1px solid #FFAE33;
+    color: #FFAE33;
+}
+
+.hero__contact__web {
+    font-size: 29px;
+    align-items: center;
+    margin-left: 39px;
+    display: flex;
+    gap: 0 28px;
+    margin-top: -40px;
+}
+
+.hero__contact__web img:hover {
+    width: 110%;
+    height: 110%;
+}
+
+.hero__image {
+    width: 50%;
+    max-width: 760px;
+    height: 672px;
+}
+
+.select__project {
+    max-width: 1310px;
+    height: 572px;
+    margin-top: 18px;
+    line-height: 64px;
+}
+
+.select__project__text {
+    text-align: center;
+    padding: 160px 0;
+}
+
+.select__project__text h3 {
+    font-weight: 700;
+    font-size: 54px;
+    color: #12100C;
+}
+
+.select__project__text s {
+    font-weight: 400;
+    font-size: 54px;
+    color: #999795;
+}
+
+.dev__environments {
+    margin-top: 18px;
+    max-width: 1310px;
+    height: 792px;
+    padding: 160px 0;
+}
+
+.dev__environments__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dev__environments__content {
+    width: 65%;
+    max-width: 655px;
+    height: 472px;
+    margin-right: 66px;
+}
+
+.dev__environments__content__title {
+    max-width: 495px;
+    height: 40px;
+    font-size: 32px;
+    color: #12100C;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.dev__environments__content__text {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #12100CB2;
+}
+
+.dev__environments__actions {
+    margin-top: 139px;
+    max-width: 671px;
+    height: 48px;
+    display: flex;
+}
+
+.dev__environments__actions__link-1 {
+    text-transform: capitalize;
+    width: 162px;
+    height: 32px;
+    background-color: #FFAE33;
+    text-align: center;
+    border-radius: 10.5px;
+    color: #12100C;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 7px 18px;
+}
+
+.dev__environments__actions__link-1:hover {
+    border: 1px solid #12100C;
+    background-color: #fff;
+    color: #FFAE33;
+}
+
+.dev__environments__actions__link-2 {
+    text-transform: capitalize;
+    width: 146px;
+    height: 32px;
+    background-color: #FFB0AE;
+    text-align: center;
+    border-radius: 10.5px;
+    color: #12100C;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 7px 18px;
+    margin-left: 16px;
+}
+
+.dev__environments__actions__link-2:hover {
+    border: 1px solid #12100C;
+    background-color: #fff;
+    color: #FFB0AE;
+}
+
+.dev__environments__image {
+    width: 35%;
+    max-width: 590px;
+    height: 472px;
+}
+
+.secure {
+    margin-top: 177px;
+}
+
+.secure_main {
+    width: 100%;
+    max-width: 1310px;
+    height: 1176px;
+}
+
+.secure__main__title {
+    max-width: 1310px;
+    height: 71px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 72px;
+}
+
+.secure_main__image {
+    padding: 48px 20px;
+    max-width: 1269px;
+    height: 821px;
+    border-radius: 14px;
+}
+
+.secure__content {
+    display: flex;
+    margin: 49px 205px 32px 205px;
+    max-width: 900px;
+    height: 93px;
+}
+
+.secure__content__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #12100CB2;
+}
+
+.secure__web {
+    width: 916px;
+    height: 63px;
+    margin: 0 205px 1px 189px;
+    display: flex;
+    text-transform: capitalize;
+}
+
+.secure__web__chrome {
+    display: flex;
+    width: 207px;
+    height: 47px;
+    border: 1px solid #000000;
+    margin: 16px 16px 0 255px;
+}
+
+.secure__web__chrome:hover {
+    background-color: #FFAE33;
+}
+
+.secure__chrome {
+    display: flex;
+    align-items: center;
+}
+
+.secure__web__firefox {
+    display: flex;
+    width: 199px;
+    height: 47px;
+    border: 1px solid #000000;
+    margin: 16px 239px 0 0;
+}
+
+.secure__web__firefox:hover {
+    background-color: #FFAE33;
+}
+
+.secure__firefox {
+    display: flex;
+    align-items: center;
+}
+
+.secure__web img {
+    padding-left: 12px;
+}
+
+span {
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 31.86px;
+    text-align: center;
+    color: #12100C;
+}
